@@ -1,4 +1,12 @@
 {
     "editor.fontFamily": "Input",
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "git.autofetch": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ]
 }
