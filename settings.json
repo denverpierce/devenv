@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily": "Input",
+    "editor.fontFamily": "Input Sans",
     "editor.fontSize": 14,
     "git.autofetch": true,
     "eslint.autoFixOnSave": true,
@@ -8,5 +8,55 @@
         "javascriptreact",
         "typescript",
         "typescriptreact"
-    ]
+    ],
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "gitlens.historyExplorer.location": "scm",
+    "gitlens.resultsExplorer.location": "scm",
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "editor.smoothScrolling": false,
+    "window.zoomLevel": 0,
+    "gitlens.gitExplorer.location": "scm",
+    "gitlens.hovers.enabled": false,
+    "gitlens.codeLens.enabled": false,
+    "git.enableSmartCommit": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "autoimport.higherOrderComponents": "connect|withRouter|wrappedComponent",
+    "workbench.colorTheme": "Base16 Dark Bespin",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "files.associations": {
+        "*.confdefn": "json",
+        "*.modeldefn": "json",
+        "*.viewdefn": "json",
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "node_modules": true
+    },
+    "editor.formatOnSave": true,
+    "[json]": {
+        "editor.formatOnSave": false
+    },
+    "[jsonc]": {
+        "editor.formatOnSave": false
+    },
+    "window.titleBarStyle": "custom",
+    "workbench.editor.highlightModifiedTabs": true,
+    "gitlens.views.repositories.location": "scm",
+    "gitlens.views.fileHistory.location": "scm",
+    "gitlens.views.lineHistory.location": "scm",
+    "gitlens.views.compare.location": "scm",
+    "gitlens.views.search.location": "scm",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
 }
