@@ -1,3 +1,6 @@
+[user]
+	name = Denver
+	email = Denver.Pierce@s5stratos.com
 [credential]
 	helper = cache --timeout=3600
 [alias]
